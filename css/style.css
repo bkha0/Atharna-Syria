@@ -1,0 +1,23 @@
+/* FONTS START */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* FONTS END */
+/* BASIC START */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+    /*font-family: "Raleway", sans-serif;*/
+}
+:root {
+    --background-color: #FDF8F0;
+    --main-titles: #5D3A1A;
+    --btns-color: #8B5A2B;
+    --urls-color: #8B5A2B;
+    --normal-texts: #4A4A4A;
+    --cards-background: #FFFCF8;
+}
+body {
+    background: var(--background-color);
+}
+/* BASIC END */
